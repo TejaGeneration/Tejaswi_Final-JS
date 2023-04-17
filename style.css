@@ -1,0 +1,50 @@
+
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+		}
+		.image {
+			flex: 1;
+			background-image:url('/ticket\ booking.jpg');
+			background-size: cover;
+			height: 100vh;
+		}
+		.form {
+			flex: 1;
+			padding: 2rem;
+			height: 115vh;
+
+          background-color: #6CB4EE;
+		}
+		form {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			width: 100%;
+			max-width: 400px;
+			margin: 0 auto;
+          
+		}
+		input, select, textarea {
+			margin-bottom: 1rem;
+			padding: 0.5rem;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			width: 100%;
+		}
+		input[type="submit"] {
+			background-color: #2e6ce7;
+			color: white;
+			padding: 0.5rem;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+		}
+		input[type="submit"]:hover {
+			background-color: #2e6ce7;
+		}
+		.required:after {
+			content: '*';
+			color: red;
+		}
+	
